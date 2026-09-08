@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио веб-дизайнера | Милана Ершова</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">ME.Design</a>
+            <nav class="nav" id="nav-menu">
+                <a href="#about" class="nav-link">О себе</a>
+                <a href="#skills" class="nav-link">Навыки</a>
+                <a href="#projects" class="nav-link">Работы</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <button class="burger" id="burger-btn" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Секция О себе -->
+        <section id="about" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-avatar">
+                    <img src="img/avatar.jpg" alt="Милана Ершова" class="avatar-img">
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Милана Ершова</h1>
+                    <p class="hero-subtitle">Начинающий веб-дизайнер & UI/UX проектировщик</p>
+                    <p class="hero-description">
+                        Создаю чистые, удобные и функциональные интерфейсы для сайтов и веб-приложений. Проектирую пользовательский опыт в Figma и претворяю идеи в жизнь с помощью аккуратного HTML/CSS кода.
+                    </p>
+                    <a href="#contacts" class="btn">Связаться со мной</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция Навыки -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Мои навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Figma & UI/UX</h3>
+                        <p>Прототипирование, создание дизайн-систем, Auto Layout, компоненты, адаптивные макеты.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Семантическая вёрстка, Flexbox, Grid, адаптивная адаптация под мобильные устройства.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript Base</h3>
+                        <p>Базовые интерактивные элементы, анимации, работа с DOM-деревом.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Инструменты</h3>
+                        <p>Git, GitHub, Visual Studio Code, Chrome DevTools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция Работы -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Выполненные работы</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="img/project1.jpg" alt="Приложение Trackly" class="project-img">
+                        <div class="project-info">
+                            <h3>Trackly App</h3>
+                            <p>Дизайн интерфейса и UI-кит для мобильного трекера задач и привычек.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="img/project2.jpg" alt="Лендинг Рядом" class="project-img">
+                        <div class="project-info">
+                            <h3>Психологический центр «Рядом»</h3>
+                            <p>Концепция брендинга и дизайн лендинга частной психологической практики.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="img/project3.jpg" alt="Макет интернет-магазина" class="project-img">
+                        <div class="project-info">
+                            <h3>E-Commerce Concept</h3>
+                            <p>Адаптивный макет главной страницы интернет-магазина современных аксессуаров.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция Контакты -->
+        <section id="contacts" class="contacts section">
+            <div class="container contacts-container">
+                <h2 class="section-title">Давайте работать вместе!</h2>
+                <p>Готова к обсуждению учебных и коммерческих проектов.</p>
+                <div class="contacts-links">
+                    <a href="mailto:example@domain.com" class="btn">Написать на Email</a>
+                    <a href="https://t.me/" target="_blank" class="btn btn-outline">Telegram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Милана Ершова. Разработано в учебных целях.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
